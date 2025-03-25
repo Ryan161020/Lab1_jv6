@@ -1,0 +1,67 @@
+[
+  {
+    "name": "a",
+    "gender": true,
+    "mark": 7,
+    "contact": {
+      "email": "ahii@gmail.com",
+      "phone": "012345678"
+    },
+    "subjects": [
+      "WEB CỦA QUÂN",
+      "web của người ta"
+    ]
+  },
+  {
+    "name": "b",
+    "gender": false,
+    "mark": 8.5,
+    "contact": {
+      "email": "bhuu@gmail.com",
+      "phone": "012345679"
+    },
+    "subjects": [
+      "Java",
+      "Database Management"
+    ]
+  },
+  {
+    "name": "c",
+    "gender": true,
+    "mark": 6.5,
+    "contact": {
+      "email": "cthai@gmail.com",
+      "phone": "012345680"
+    },
+    "subjects": [
+      "WEB CỦA QUÂN",
+      "Android Development"
+    ]
+  },
+  {
+    "name": "d",
+    "gender": false,
+    "mark": 9,
+    "contact": {
+      "email": "dlanh@gmail.com",
+      "phone": "012345681"
+    },
+    "subjects": [
+      "Data Structures",
+      "Algorithms"
+    ]
+  },
+  {
+    "name": "e",
+    "gender": true,
+    "mark": 8,
+    "contact": {
+      "email": "emai@gmail.com",
+      "phone": "012345682"
+    },
+    "subjects": [
+      "Machine Learning",
+      "AI"
+    ]
+  }
+]

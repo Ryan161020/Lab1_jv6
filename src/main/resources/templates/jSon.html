@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var sv = {
+        "name":"a",
+        "gender": true,
+        "mark": 7,
+        "contact":{
+            "email":"ahii@gmail.com",
+            "phone":"012345678"
+        },
+        "subjects": ["WEB CỦA QUÂN","web của người ta"]
+    }
+//xuất đối tượng
+    console.log(sv)
+
+    //xuatá các thộc tính
+    sv.name = sv['name'].toUpperCase();
+    console.log(sv.name, sv.contact.email, sv.subjects[0])
+    //duyệt qua key
+    for (var key in sv){
+        console.log(key,sv[key])
+    }
+    //chuyêển sang text
+    var text = JSON.stringify(sv)
+    console.log(text)
+
+    // chuyển sang dối tưuọngw
+    var obj = JSON.parse(text);
+    console.log(obj,obj.name)
+</script>
+
+</body>
+</html>

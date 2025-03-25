@@ -1,4 +1,4 @@
-package com.example.Lab1;
+package com.example.Lab1.lambda;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

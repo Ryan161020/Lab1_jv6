@@ -1,15 +1,17 @@
-package com.example.Lab1;
+package com.example.Lab1.lambda;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
 public class Lambda {
-    static List<Student> list = Arrays.asList(
+   public static List<Student> list = Arrays.asList(
             new Student("c", true, 1.0),
-            new Student("c", false, 5.6),
-            new Student("c", true, 4.7)
+            new Student("v", false, 5.6),
+            new Student("x", true, 7.0),
+             new Student("s", true, 9.0),
+            new Student("cs", false, 10.6),
+            new Student("cs", true, 8.7)
     );
     public static void main(String[] args) {
         demo4();

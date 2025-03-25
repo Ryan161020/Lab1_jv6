@@ -1,0 +1,13 @@
+{
+  "name": "a",
+  "gender": true,
+  "mark": 7,
+  "contact": {
+    "email": "ahii@gmail.com",
+    "phone": "012345678"
+  },
+  "subjects": [
+    "WEB CỦA QUÂN",
+    "web của người ta"
+  ]
+}
